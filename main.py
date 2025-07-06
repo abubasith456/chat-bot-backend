@@ -22,7 +22,7 @@ def main():
         logger.info("Starting FastAPI chatbot server...")
 
         # Start server with Uvicorn
-        uvicorn.run("app:app", host="0.0.0.0", port=8000, reload=True, log_level="info")
+        uvicorn.run("app:app", host="0.0.0.0", port=8000, log_level="info")
 
     except ValueError as e:
         logger.error(f"Configuration error: {e}")
