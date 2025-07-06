@@ -1,0 +1,162 @@
+2025-07-06 17:45:40,550 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 17:45:40,926 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:45:41,290 - watchfiles.main - INFO - 168 changes detected
+2025-07-06 17:45:41,806 - watchfiles.main - INFO - 387 changes detected
+2025-07-06 17:45:41,957 - app - INFO - FastAPI application startup complete
+2025-07-06 17:45:42,160 - watchfiles.main - INFO - 84 changes detected
+2025-07-06 17:46:17,500 - app - ERROR - Error processing message: 'ChatbotServer' object has no attribute 'process_message'
+2025-07-06 17:47:04,011 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:47:04,189 - app - INFO - FastAPI application shutdown
+2025-07-06 17:47:04,552 - app - INFO - FastAPI application startup complete
+2025-07-06 17:47:04,593 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:48:19,327 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:48:58,105 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:48:58,237 - app - INFO - FastAPI application shutdown
+2025-07-06 17:48:58,611 - app - INFO - FastAPI application startup complete
+2025-07-06 17:48:58,637 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:00,790 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:00,930 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:01,199 - app - INFO - FastAPI application startup complete
+2025-07-06 17:49:01,322 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:03,383 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:03,519 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:03,764 - app - INFO - FastAPI application startup complete
+2025-07-06 17:49:03,922 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:07,967 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:08,104 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:08,342 - app - INFO - FastAPI application startup complete
+2025-07-06 17:49:08,496 - watchfiles.main - INFO - 7 changes detected
+2025-07-06 17:49:10,458 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:10,563 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:10,807 - app - INFO - FastAPI application startup complete
+2025-07-06 17:49:10,964 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:49:16,817 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:49:16,965 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:17,185 - app - INFO - FastAPI application startup complete
+2025-07-06 17:49:17,362 - watchfiles.main - INFO - 7 changes detected
+2025-07-06 17:49:58,845 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:49:58,998 - app - INFO - FastAPI application shutdown
+2025-07-06 17:49:59,385 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:50:24,922 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:50:25,257 - app - INFO - FastAPI application startup complete
+2025-07-06 17:50:25,284 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:50:27,238 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:50:27,378 - app - INFO - FastAPI application shutdown
+2025-07-06 17:50:27,656 - app - INFO - FastAPI application startup complete
+2025-07-06 17:50:27,798 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:50:33,950 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:50:34,115 - app - INFO - FastAPI application shutdown
+2025-07-06 17:50:34,368 - app - INFO - FastAPI application startup complete
+2025-07-06 17:50:34,509 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:50:49,103 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:50:49,207 - app - INFO - FastAPI application shutdown
+2025-07-06 17:50:49,511 - app - INFO - FastAPI application startup complete
+2025-07-06 17:50:49,608 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:50:59,540 - llm.nvidia_client - ERROR - API Error: 401 - {"status":401,"title":"Unauthorized","detail":"Authentication failed"}
+2025-07-06 17:51:19,413 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:52:45,709 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:52:56,543 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 17:52:56,787 - app - INFO - FastAPI application startup complete
+2025-07-06 17:54:22,075 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:56:08,036 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:08,238 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:08,567 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:08,640 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:56:11,456 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:11,594 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:11,990 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:13,571 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:16,740 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:17,102 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:56:19,108 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:22,441 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:22,676 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:22,802 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:56:25,211 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:25,404 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:25,631 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:25,790 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:56:31,095 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:31,289 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:31,694 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:33,065 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:33,281 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:33,427 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:56:47,867 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:48,011 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:48,333 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:48,409 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:56:56,831 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:56:57,019 - app - INFO - FastAPI application shutdown
+2025-07-06 17:56:57,322 - app - INFO - FastAPI application startup complete
+2025-07-06 17:56:57,406 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:57:13,765 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:57:13,877 - app - INFO - FastAPI application shutdown
+2025-07-06 17:57:14,188 - app - INFO - FastAPI application startup complete
+2025-07-06 17:57:14,290 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:57:22,106 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 17:57:36,457 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:57:36,603 - app - INFO - FastAPI application shutdown
+2025-07-06 17:57:36,983 - app - INFO - FastAPI application startup complete
+2025-07-06 17:57:37,031 - watchfiles.main - INFO - 4 changes detected
+2025-07-06 17:57:43,888 - app - INFO - Socket server started on localhost:8888
+2025-07-06 17:57:43,890 - server.socket_server - INFO - Chatbot server started on localhost:8888
+2025-07-06 17:58:04,477 - server.socket_server - INFO - Shutting down server...
+2025-07-06 17:58:04,478 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 17:58:04,478 - server.socket_server - INFO - Shutting down server...
+2025-07-06 17:58:04,479 - app - INFO - Socket server stopped
+2025-07-06 17:58:04,479 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 17:59:51,844 - watchfiles.main - INFO - 1 change detected
+2025-07-06 17:59:59,892 - watchfiles.main - INFO - 1 change detected
+2025-07-06 18:00:00,066 - app - INFO - FastAPI application shutdown
+2025-07-06 18:00:00,402 - app - INFO - FastAPI application startup complete
+2025-07-06 18:00:00,465 - watchfiles.main - INFO - 1 change detected
+2025-07-06 18:00:01,844 - watchfiles.main - INFO - 1 change detected
+2025-07-06 18:00:02,017 - app - INFO - FastAPI application shutdown
+2025-07-06 18:00:02,243 - app - INFO - FastAPI application startup complete
+2025-07-06 18:00:02,402 - watchfiles.main - INFO - 2 changes detected
+2025-07-06 18:00:02,547 - app - INFO - FastAPI application shutdown
+2025-07-06 18:00:02,784 - app - INFO - FastAPI application startup complete
+2025-07-06 18:00:02,934 - watchfiles.main - INFO - 1 change detected
+2025-07-06 18:00:22,191 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:00:45,490 - app - INFO - Socket server started on localhost:8888
+2025-07-06 18:00:45,491 - server.socket_server - INFO - Chatbot server started on localhost:8888
+2025-07-06 18:00:51,150 - server.socket_server - INFO - New connection from ('127.0.0.1', 58195)
+2025-07-06 18:00:51,150 - server.socket_server - INFO - Received from 127.0.0.1:58195: Hello, bot!
+2025-07-06 18:00:51,852 - server.socket_server - INFO - Client 127.0.0.1:58195 connection closed
+2025-07-06 18:06:21,348 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:09:49,598 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:15:28,043 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:18:28,078 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:21:38,125 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:21:38,126 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:21:38,126 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:21:38,126 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:21:38,126 - app - INFO - Socket server stopped
+2025-07-06 18:21:52,135 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:21:53,433 - app - INFO - Socket server started on localhost:8888
+2025-07-06 18:21:53,434 - server.socket_server - INFO - Chatbot server started on localhost:8888
+2025-07-06 18:21:55,454 - server.socket_server - INFO - New connection from ('127.0.0.1', 64928)
+2025-07-06 18:22:00,110 - server.socket_server - INFO - Received from 127.0.0.1:64928: hi
+2025-07-06 18:22:26,276 - server.socket_server - INFO - Received from 127.0.0.1:64928: which one is speed for chatbot agent socket or post request?
+2025-07-06 18:24:51,272 - server.socket_server - INFO - Client 127.0.0.1:64928 connection closed
+2025-07-06 18:24:51,285 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:24:51,286 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:24:51,286 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:24:51,286 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:24:51,286 - app - INFO - Socket server stopped
+2025-07-06 18:24:53,670 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 18:26:20,130 - app - INFO - Socket server started on localhost:8888
+2025-07-06 18:26:20,130 - server.socket_server - INFO - Chatbot server started on localhost:8888
+2025-07-06 18:26:22,163 - server.socket_server - INFO - New connection from ('127.0.0.1', 49981)
+2025-07-06 18:26:24,830 - server.socket_server - INFO - Client 127.0.0.1:49981 connection closed
+2025-07-06 18:26:24,839 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:26:24,839 - server.socket_server - INFO - Shutting down server...
+2025-07-06 18:26:24,839 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:26:24,839 - server.socket_server - INFO - Server shutdown complete
+2025-07-06 18:26:24,839 - app - INFO - Socket server stopped
+2025-07-06 18:26:26,743 - app - INFO - Socket server started on localhost:8888
+2025-07-06 18:26:26,743 - server.socket_server - INFO - Chatbot server started on localhost:8888
+2025-07-06 18:26:28,750 - server.socket_server - INFO - New connection from ('127.0.0.1', 50014)
+2025-07-06 18:26:36,172 - server.socket_server - INFO - Received from 127.0.0.1:50014: Hi
+2025-07-06 18:29:48,550 - watchfiles.main - INFO - 3 changes detected
