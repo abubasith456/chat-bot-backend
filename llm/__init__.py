@@ -1,1 +1,1 @@
-from .nvidia_client import NvidiaLLMClient
+from .nvidia_client import NvidiaLLMClient, nvidia_service

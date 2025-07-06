@@ -160,3 +160,166 @@
 2025-07-06 18:26:28,750 - server.socket_server - INFO - New connection from ('127.0.0.1', 50014)
 2025-07-06 18:26:36,172 - server.socket_server - INFO - Received from 127.0.0.1:50014: Hi
 2025-07-06 18:29:48,550 - watchfiles.main - INFO - 3 changes detected
+2025-07-06 20:11:28,476 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 20:11:28,718 - app - INFO - FastAPI application startup complete
+2025-07-06 20:14:15,298 - app - INFO - FastAPI application shutdown
+2025-07-06 20:14:18,713 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 20:14:18,917 - app - INFO - FastAPI application startup complete
+2025-07-06 20:20:15,974 - app - INFO - Received WS: {"type":"user","message":"hi"}
+2025-07-06 20:25:24,888 - app - INFO - Client disconnected
+2025-07-06 20:25:35,782 - app - INFO - Received WS: {"type":"user","message":"what is websocket."}
+2025-07-06 20:27:15,413 - app - INFO - Received WS: {"type":"user","message":"who are you?"}
+2025-07-06 20:27:33,712 - app - INFO - Client disconnected
+2025-07-06 20:27:39,883 - app - INFO - Client disconnected
+2025-07-06 20:28:30,210 - app - INFO - Received WS: {"type":"user","message":"HI\n"}
+2025-07-06 20:29:40,869 - app - INFO - Client disconnected
+2025-07-06 21:03:17,655 - app - INFO - Received WS: {"type":"model","message":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:03:28,923 - app - INFO - Received WS: {"type":"message","text":"Hi"}
+2025-07-06 21:03:30,054 - llm.nvidia_client - ERROR - API Error: 400 - {"error":"[{'type': 'string_too_short', 'loc': ('body', 'messages', 0, 'content'), 'msg': 'String should have at least 1 character', 'input': '', 'ctx': {'min_length': 1}}]"}
+2025-07-06 21:04:48,584 - app - INFO - Client disconnected
+2025-07-06 21:04:48,686 - app - INFO - FastAPI application shutdown
+2025-07-06 21:04:51,054 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:04:51,266 - app - INFO - FastAPI application startup complete
+2025-07-06 21:04:57,352 - app - INFO - Received WS: {"type":"model","message":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:04:57,353 - app - ERROR - Error in WebSocket connection: 1 validation error for WSMessage
+text
+  Field required [type=missing, input_value={'type': 'model', 'messag...ft/phi-4-mini-instruct'}, input_type=dict]
+    For further information visit https://errors.pydantic.dev/2.5/v/missing
+2025-07-06 21:06:27,783 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:06:31,751 - app - INFO - Received WS: {"type":"message","text":"HI"}
+2025-07-06 21:06:31,751 - app - INFO - Received message: HI
+2025-07-06 21:08:36,688 - app - INFO - Client disconnected
+2025-07-06 21:08:36,789 - app - INFO - FastAPI application shutdown
+2025-07-06 21:08:39,638 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:08:39,853 - app - INFO - FastAPI application startup complete
+2025-07-06 21:08:46,633 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:08:50,518 - app - INFO - Received WS: {"type":"message","text":"Hi"}
+2025-07-06 21:08:50,519 - app - INFO - Received message: Hi
+2025-07-06 21:09:27,656 - app - INFO - Client disconnected
+2025-07-06 21:09:27,757 - app - INFO - FastAPI application shutdown
+2025-07-06 21:09:29,328 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:09:29,519 - app - INFO - FastAPI application startup complete
+2025-07-06 21:09:32,429 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:09:36,485 - app - INFO - Received WS: {"type":"message","text":"Hi"}
+2025-07-06 21:09:36,486 - app - INFO - Received message: Hi
+2025-07-06 21:09:36,486 - llm.nvidia_client - INFO - Sending request to NVIDIA API: {"model": "microsoft/phi-4-mini-instruct", "messages": [{"role": "user", "content": "Hi"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:09:46,385 - app - INFO - Client disconnected
+2025-07-06 21:09:49,268 - app - INFO - Received WS: {"type":"model","text":"deepseek-ai/deepseek-r1-0528"}
+2025-07-06 21:09:58,035 - app - INFO - Received WS: {"type":"message","text":"Hi"}
+2025-07-06 21:09:58,035 - app - INFO - Received message: Hi
+2025-07-06 21:09:58,035 - llm.nvidia_client - INFO - Sending request to NVIDIA API: {"model": "deepseek-ai/deepseek-r1-0528", "messages": [{"role": "user", "content": "Hi"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:10:28,121 - llm.nvidia_client - ERROR - Request failed: HTTPSConnectionPool(host='integrate.api.nvidia.com', port=443): Read timed out. (read timeout=30)
+2025-07-06 21:10:35,021 - app - INFO - Client disconnected
+2025-07-06 21:10:38,522 - app - INFO - Received WS: {"type":"model","text":"meta/llama-3.3-70b-instruct"}
+2025-07-06 21:10:44,542 - app - INFO - Received WS: {"type":"message","text":"Hi"}
+2025-07-06 21:10:44,543 - app - INFO - Received message: Hi
+2025-07-06 21:10:44,543 - llm.nvidia_client - INFO - Sending request to NVIDIA API: {"model": "meta/llama-3.3-70b-instruct", "messages": [{"role": "user", "content": "Hi"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:12:35,451 - app - INFO - Client disconnected
+2025-07-06 21:12:35,552 - app - INFO - FastAPI application shutdown
+2025-07-06 21:12:37,033 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:12:37,276 - app - INFO - FastAPI application startup complete
+2025-07-06 21:12:49,539 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:12:57,153 - app - INFO - Received WS: {"type":"message","text":"WHO ARE YOU?"}
+2025-07-06 21:12:57,153 - app - INFO - Received message: WHO ARE YOU?
+2025-07-06 21:12:57,153 - llm.nvidia_client - INFO - Sending async request to NVIDIA API: {"model": "microsoft/phi-4-mini-instruct", "messages": [{"role": "user", "content": "WHO ARE YOU?"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:12:58,012 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 21:12:58,013 - llm.nvidia_client - INFO - Received async response from NVIDIA API: <Response [200 OK]>
+2025-07-06 21:12:58,013 - app - INFO - Bot response: I am Phi, an AI developed by Microsoft to assist with a wide range of tasks and answer questions you may have. How can I help you today?
+2025-07-06 21:13:46,677 - app - INFO - Client disconnected
+2025-07-06 21:13:46,778 - app - INFO - FastAPI application shutdown
+2025-07-06 21:13:48,264 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:13:48,480 - app - INFO - FastAPI application startup complete
+2025-07-06 21:13:51,222 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 21:13:56,544 - app - INFO - Received WS: {"type":"message","text":"Hi\n"}
+2025-07-06 21:13:56,545 - app - INFO - Received message: Hi
+
+2025-07-06 21:13:56,546 - llm.nvidia_client - INFO - Sending async request to NVIDIA API: {"model": "microsoft/phi-4-mini-instruct", "messages": [{"role": "user", "content": "Hi\n"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:13:57,189 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 21:13:57,190 - llm.nvidia_client - INFO - Received async response from NVIDIA API: <Response [200 OK]>
+2025-07-06 21:13:57,190 - app - INFO - Bot response: Hello! How can I assist you today?
+2025-07-06 21:14:02,147 - app - INFO - Received WS: {"type":"message","text":"Thanks"}
+2025-07-06 21:14:02,147 - app - INFO - Received message: Thanks
+2025-07-06 21:14:02,147 - llm.nvidia_client - INFO - Sending async request to NVIDIA API: {"model": "microsoft/phi-4-mini-instruct", "messages": [{"role": "user", "content": "Thanks"}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:14:02,749 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 21:14:02,750 - llm.nvidia_client - INFO - Received async response from NVIDIA API: <Response [200 OK]>
+2025-07-06 21:14:02,750 - app - INFO - Bot response: You're welcome! How can I assist you today?
+2025-07-06 21:14:15,075 - app - INFO - Received WS: {"type":"message","text":"what is websocket."}
+2025-07-06 21:14:15,075 - app - INFO - Received message: what is websocket.
+2025-07-06 21:14:15,075 - llm.nvidia_client - INFO - Sending async request to NVIDIA API: {"model": "microsoft/phi-4-mini-instruct", "messages": [{"role": "user", "content": "what is websocket."}], "max_tokens": 512, "temperature": 0.7, "stream": false}
+2025-07-06 21:14:19,445 - httpx - INFO - HTTP Request: POST https://integrate.api.nvidia.com/v1/chat/completions "HTTP/1.1 200 OK"
+2025-07-06 21:14:19,445 - llm.nvidia_client - INFO - Received async response from NVIDIA API: <Response [200 OK]>
+2025-07-06 21:14:19,445 - app - INFO - Bot response: WebSockets is a communication protocol that provides full-duplex communication channels over a single TCP connection. This means that data can be sent and received simultaneously between a client (such as a web browser) and a server, making it highly efficient for real-time applications.
+
+Here are some key features of WebSockets:
+
+1. **Full-duplex communication**: Unlike traditional HTTP requests, which are unidirectional (client to server or server to client), WebSockets allow both parties to send messages simultaneously.
+
+2. **Persistent connection**: Once a WebSocket connection is established, the connection remains open, allowing continuous exchange of data until one of the parties closes the connection.
+
+3. **Low latency**: Because WebSockets maintain an open connection, they provide lower latency compared to traditional HTTP requests, which require establishing a new connection for each request.
+
+4. **Real-time communication**: WebSockets are ideal for applications that require real-time data updates, such as chat applications, live sports updates, stock trading platforms, and multiplayer online games.
+
+5. **Cross-platform support**: WebSockets are supported by most modern web browsers and can also be used with various programming languages and frameworks.
+
+6. **Bidirectional communication**: Both the client and the server can initiate communication, making it more interactive and responsive.
+
+WebSockets are commonly used in modern web applications to provide a more dynamic and real-time user experience. They allow developers to build applications with features like instant messaging, live notifications, collaborative editing, and real-time data visualization.
+2025-07-06 21:14:23,432 - app - INFO - Client disconnected
+2025-07-06 21:44:21,909 - app - INFO - FastAPI application shutdown
+2025-07-06 21:44:23,231 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 21:44:23,444 - app - INFO - FastAPI application startup complete
+2025-07-06 21:44:34,452 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 21:51:13,702 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:03:23,142 - app - INFO - FastAPI application shutdown
+2025-07-06 22:03:24,485 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 22:03:24,703 - app - INFO - FastAPI application startup complete
+2025-07-06 22:03:52,069 - app - INFO - FastAPI application shutdown
+2025-07-06 22:03:55,220 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 22:03:55,426 - app - INFO - FastAPI application startup complete
+2025-07-06 22:04:01,169 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:04:24,142 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:04:24,143 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:23:01,346 - app - INFO - Client disconnected
+2025-07-06 22:23:04,037 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:25:10,301 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:25:42,849 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:25:44,088 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:29:03,512 - app - INFO - Client disconnected
+2025-07-06 22:29:05,207 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:29:06,029 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:29:07,798 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:29:13,528 - app - INFO - Client disconnected
+2025-07-06 22:29:16,031 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:29:16,036 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:29:17,481 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:31:20,760 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:31:25,633 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"et"}
+2025-07-06 22:31:39,313 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"et"}
+2025-07-06 22:31:39,314 - app - INFO - Received WS: {"type":"translate","text":"Who are you?"}
+2025-07-06 22:32:20,082 - app - INFO - Client disconnected
+2025-07-06 22:32:20,184 - app - INFO - FastAPI application shutdown
+2025-07-06 22:43:57,635 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 22:43:57,873 - app - INFO - FastAPI application startup complete
+2025-07-06 22:44:03,365 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:44:06,532 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:44:16,490 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:44:18,764 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:44:18,764 - app - INFO - Received WS: {"type":"translate","text":"Hi"}
+2025-07-06 22:45:03,146 - app - INFO - Client disconnected
+2025-07-06 22:45:03,247 - app - INFO - FastAPI application shutdown
+2025-07-06 22:45:05,318 - __main__ - INFO - Starting FastAPI chatbot server...
+2025-07-06 22:45:05,538 - app - INFO - FastAPI application startup complete
+2025-07-06 22:45:10,077 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:45:11,279 - app - INFO - Received WS: {"type":"model","text":"microsoft/phi-4-mini-instruct"}
+2025-07-06 22:45:13,400 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:45:19,991 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:45:26,077 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:45:26,078 - app - INFO - Received WS: {"type":"translate","text":"Who are you?"}
+2025-07-06 22:47:32,646 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:47:32,649 - app - INFO - Received WS: {"type":"translate","text":"Where are you now?"}
+2025-07-06 22:47:41,841 - app - INFO - Received WS: {"type":"languages","text":"","text_from":"en","text_to":"ar"}
+2025-07-06 22:47:41,842 - app - INFO - Received WS: {"type":"translate","text":"Abu basith"}
+2025-07-06 22:47:47,649 - app - INFO - Client disconnected
+2025-07-06 22:47:48,342 - app - INFO - Supported languages: {'from_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW'], 'to_text': ['ar', 'bg', 'cs', 'da', 'de', 'el', 'en', 'es-ES', 'es-US', 'et', 'fi', 'fr', 'hi', 'hr', 'hu', 'id', 'it', 'ja', 'ko', 'lt', 'lv', 'nl', 'no', 'pl', 'pt-BR', 'pt-PT', 'ro', 'ru', 'sk', 'sl', 'sv', 'th', 'tr', 'uk', 'vi', 'zh-CN', 'zh-TW']}
+2025-07-06 22:48:25,951 - app - INFO - FastAPI application shutdown

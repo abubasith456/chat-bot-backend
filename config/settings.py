@@ -11,7 +11,7 @@ class Settings:
     )
     MODEL_NAME = os.getenv("MODEL_NAME", "meta/llama-3.1-8b-instruct")
     HOST = os.getenv("HOST", "localhost")
-    PORT = int(os.getenv("PORT", 8888))
+    PORT = int(os.getenv("PORT", 8000))
 
     @classmethod
     def validate(cls):

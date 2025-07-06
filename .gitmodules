@@ -1,0 +1,3 @@
+[submodule "python-clients"]
+	path = python-clients
+	url = https://github.com/nvidia-riva/python-clients.git
